@@ -36,7 +36,7 @@ module.exports = {
       name: "SecondStudentApp",
       filename: "remoteEntry.js",
       remotes: {
-        FirstStudentApp: "FirstStudentApp@http://localhost:3001/remoteEntry.js"
+        FirstStudentApp: "FirstStudentApp@https://firststudentapp.netlify.app/remoteEntry.js"
       }
     })
   ]
